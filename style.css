@@ -1,0 +1,71 @@
+ /*
+ Author: Yidan Xu
+ Provides styling for the google maps project, including styles contained with the infowindows.
+ */
+
+
+html {
+	height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    height: 100%;
+}
+
+/*
+Formatting rules for users location infowindow
+*/
+#myLocationWindow {
+	font-size: large;
+}
+
+#closest {
+	font-size: x-large;
+	font-weight: bold;
+}
+
+
+/*
+Formatting rules used for subway station infowindow
+*/
+#station h1 {
+	border-bottom: 3px solid black;
+	text-align: center;
+	
+}
+
+#station table{
+	border-bottom: 1px solid black;
+	border-collapse: collapse;
+	margin-left: 10px;
+}
+
+#header{
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+
+#station th{
+	font-size: large;
+}
+
+#station td.left{
+	border-left: 1px solid black;
+	padding-left: 15px;
+}
+#station td.right{
+	border-right: 1px solid black;
+	padding-right: 15px;
+}
+
+#warning{
+	margin-top: 15px;
+	font-size: x-small;
+	font-weight: bold;
+}
