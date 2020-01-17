@@ -8,5 +8,3 @@ When the stations are clicked it displays real-time information about the next (
 
 Update: MBTA access key has changed, must get new one for full functionality
 
-Example page:
-https://www.eecs.tufts.edu/~yxu11/mbta/
